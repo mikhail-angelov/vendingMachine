@@ -1,0 +1,7 @@
+.vendingMachine {
+    border: 2px solid blue;
+    width: 340px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}

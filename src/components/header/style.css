@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.balance {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.coin {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    align-items: center;
+    justify-content: center;
+}
+.coin:hover{
+    border: 1px solid yellow;
+}
+
+.mute{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid wheat;
+    align-items: center;
+    justify-content: center;
+}
+.mute:hover{
+    border: 1px solid blue;
+}
